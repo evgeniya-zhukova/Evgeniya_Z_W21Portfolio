@@ -1,0 +1,134 @@
+html, body, #root {
+    font: 0.9rem sans-serif;
+    background: #0a1f44;
+    color: #1e2432;
+    height: 100%;
+    margin: 0;
+}
+
+.main-container {
+    /* background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.418) ), url('https://hdwallpaper20.com/wp-content/uploads/2017/07/wallpaper-wp4001752.jpg'); */
+    background-image: url("toronto.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.main-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.topic {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 15px 1%;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    color: #1e2432 ;
+    background: rgb(137, 210, 255);
+    box-shadow: 10px 10px 5px 0px rgba(15, 15, 15, 0.404);
+}
+
+.button-click {
+    margin-top: 5px;
+    width: 100px;
+    height: 50px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 50px;
+    background: cornflowerblue;
+    box-shadow: 10px 10px 5px 0px rgba(15, 15, 15, 0.404);
+}
+
+.city {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2px 5%;
+    border-radius: 120px;
+    background: rgb(185, 218, 238);
+    box-shadow: 10px 10px 5px 0px rgba(15, 15, 15, 0.404);
+}
+
+p {
+    margin-top: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.city-temp {
+    font-size: 4em;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #1e2432;
+    text-align: right;
+}
+
+.city-temp-medf {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #1e2432;
+  text-align: right;
+}
+
+.city-temp-med {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #1e2432;
+}
+
+.city-temp-mini {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #1e2432;
+  text-align: right;
+}
+
+.city sup {
+    font-size: 0.5em;
+}
+
+.city-name {
+    font-size: 2em;
+    text-align: center;
+}
+
+.city-name-med {
+  font-size: 1.5em;
+  text-align: left;
+}
+
+.city-name sup {
+    padding: 0.2em 0.6em;
+    margin-left: 0.2em;
+    border-radius: 30px;
+    color: #fff;
+    background: #ff8c00;
+}
+
+.city-icon {
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .city {
+        padding: 40px 20%;
+    }
+}
